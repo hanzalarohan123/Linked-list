@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Gugi" rel="stylesheet">
+
+    <title>Document</title>
+    <style>
+    .video
+    {
+        position: absolute;
+        
+        top: -60px;
+        left: 40px;
+        width: 700px;
+        height: 540px;
+    }
+    
+    .div
+    {
+        border: 1px solid salmon;
+        height: 300px;
+        width: 300px;
+        position: absolute;
+        display: inline-block;
+        top: 60px;
+        left: 680px;
+        background-color : blue;
+        
+        color:  solid black;
+        opacity: 0.2;
+        
+    }
+    .div > #line
+    {
+            color: brown
+    }
+   
+    .container {
+        
+        height: 300px;
+        top: 81px;
+        left: 675px;
+        width: 300px;
+        position: absolute;
+        display: inline-block;
+    }
+    .container2 {
+        background-color : blue;
+        opacity: 0.6;
+        height: 300px;
+        top: 52px;
+        left: 675px;
+        width: 300px;
+        position: absolute;
+        display: inline-block;
+       
+    }
+
+    .container p {
+        color: black;
+        padding-left: 6.5px;
+    }
+    
+    #paragraph
+    {
+        position: absolute;
+        top: 450px;
+        font-family: 'Gugi', cursive;
+    }
+    #paragraph::first-letter
+    {
+        font-size: 40px;
+    }
+    #paragraph::first-line
+    {
+        word-spacing: 5px;
+        letter-spacing: 5px;
+    }
+    #endline
+    {
+        position: absolute;
+        top: 800px;
+        border: 1px solid black;
+        width: 2100px;
+    }
+    </style>
+</head>
+<body>
+    <video muted autoplay loop class="video">
+    <source   src="xxx.mp4"  type="video/mp4">
+    </video>
+    
+    <div class="container2"></div>
+    <div class="container">
+        <hr id="line">
+        <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolor nesciunt minus consectetur dolores laborum quae animi. Illo, atque vero, laboriosam tempora sint totam nam ipsa quo libero sunt aliquam rem.
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolor nesciunt minus consectetur dolores laborum quae animi. Illo, atque vero, laboriosam tempora sint totam nam ipsa quo libero sunt aliquam rem.
+              
+        </p>
+        <hr id="line">
+    </div>
+    <section id="paragraph">
+        <p>
+            Lorem ipsum dolor sit amet, eum ea duis salutatus. Sint pertinax no vis. Ad posse tritani splendide eum, usu offendit oporteat expetendis an. Utinam omnesque vix ea. Omnes mollis ocurreret eos id, dictas admodum deterruisset no mei, ei tibique eligendi erroribus pro.
+
+Cu atqui veniam apeirian nam, iriure impedit deterruisset vix et, mazim movet sed ex. At cum brute probatus. Te per alii tibique, nullam equidem in nam, cu iudico persius vis. Autem eirmod definitiones per ut.
+
+Error assueverit eum ad, et saepe vulputate reformidans cum. Cu vix epicurei fabellas, his impetus eligendi consequat ne. Sed no modo facilisi tacimates. Munere quaestio forensibus ne duo.
+
+Consequat scribentur ut vis, sit ex quem mediocrem. Est amet propriae ut, suavitate accommodare eu per, nobis conceptam eloquentiam ea sea. Mea ad elit dolorum, ex eligendi phaedrum salutatus sea. Vim id saepe nostro scaevola. Has ei vidit tempor luptatum. Eos eu verterem euripidis urbanitas, ut idque placerat est.
+
+Eam ipsum maiestatis constituam ad, vel ea mucius perpetua. Modo partiendo an vel. Quem definitionem ad vel, eu pro mundi legere dictas. Vel te posse aeque. Meis quas definitionem ius cu, eum quod debet an.
+        </p>
+    </section>
+    <hr id="endline">
+</body>
+</html>

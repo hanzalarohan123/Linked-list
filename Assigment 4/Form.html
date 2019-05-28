@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        .image
+        {
+            position: absolute;
+        }
+        div
+        {
+           border: 1px solid black;
+           position: absolute;
+           width: 500px;
+           height: 400px;
+           top: 200px;
+           left: 500px;
+           background-color: aliceblue;
+        }
+        .one
+        {
+            transform: rotate(-1.5deg);
+        }
+        .two
+        {
+            transform: rotate(1.5deg);
+        }
+        .three
+        {
+            transform: rotate(0deg);
+        }
+        .heading
+        {
+            margin: 50px;
+            
+        }
+        .email
+        {
+            left: 100px;
+            position: absolute;
+            width: 300px;
+            height: 50px;
+            background-color:lightgray;
+            font-size: 20px;
+            border-radius: 10px;
+            padding-left: 20px;
+        }
+        .password
+        
+            
+        {
+            top: 200px;
+            left: 100px;
+            position: absolute;
+            width: 300px;
+            height: 50px;
+            background-color:lightgray;
+            font-size: 20px;
+            padding-left: 20px;
+            border-radius: 10px;
+        
+        }
+        .button
+        {
+           position: absolute;
+           top:270px;
+           width: 120px;
+           height: 40px;
+           background-color:yellow;
+           left: 100px;   
+           border-radius: 30px;
+           
+           font-size: 55 bold; 
+           
+        }
+        .register
+        {
+            position: absolute;
+           top:280px;
+           left: 250px;   
+           
+        }
+        .registers
+        {
+            position: absolute;
+           top:280px;
+           left: 310px;   
+           
+        }
+    </style>
+</head>
+<body>
+    <section class="image">
+        <img src="tech.jpg" width="1575px" height="800px" alt="">
+        <div class="one"></div>
+        <div class="two"></div>
+        <div class="three"><form>
+                <center> <h1 class="heading"> LOGIN FORM</h1> </center>
+                 <input class="email" type="email" placeholder="email"  value="email" name="email">
+                 <input class="password" type="password" placeholder="password" value="password" name="password"  >
+                 <input  class="button" type="button" value=" Login " name="login" >
+                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                 <a  href="facbook.com" class="register">register</a> 
+                 <a  href="facbook.com" class="registers">lost your password</a> 
+            </form></div>
+        
+    </section>
+</body>
+</html>
